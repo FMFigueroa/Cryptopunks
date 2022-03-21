@@ -1,6 +1,6 @@
-# Crypto Punks NFT's Project with random attributes encoded implementation for URI image (base64 - json)
+# Crypto Punks NFT's Project
 
-This project demonstrates a Hardhat use case. It comes with a smart contract ERC721, a test for that contract (Deploy, Mint,DNA,URI), a script that deploys that contract, which  Mint to NFT's Random in OpenSea.
+This project was make with Hardhat has random attributes encoded implementation for URI image (base64 - json), the Smart Contract was designed for ERC721 NFT, you can see a file example of Tests and deploy, this is backend for connect with React as frontend. 
 
 <hr> 
 <h2>📢 Visit me: <a style={{color:"gray"}} href="https://testnets.opensea.io/collection/cryptopunks-9zids3zaxo">CryptoPunks</a></h2> 
