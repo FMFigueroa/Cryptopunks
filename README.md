@@ -1,15 +1,26 @@
-# Basic Sample Hardhat Project
+# Crypto Punks NFT's Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This project was make with Hardhat has random attributes encoded implementation for URI image (base64 - json), the Smart Contract was designed for ERC721 NFT, you can see a file example of Tests and deploy, this is backend for connect with React as frontend.
 
-Try running some of the following tasks:
+<hr> 
+<h2>📢 Visit me: <a style={{color:"gray"}} href="https://testnets.opensea.io/collection/cryptopunks-9zids3zaxo">CryptoPunks</a></h2>
+
+## Technologies used:
+
+- Solidity -> Ethereum Blockchaon.
+- HardHat + Node -> Framework Backend.
+- Infura -> Infrastructure as cloud service for the Smart Contract.
+- OpenZpellin -> interpretation ERC721 & Library.
+- TestNet Rinkeby -> Smart Contract Deployed.
+- Etherscan -> IDE Tesnet Rinkeby.
+- chai -> Test function of Smart contract.
+- MEtamamask -> Provider Web3.
+- OpenSea -> Marketplace to Mint NTS's.
+
+Try running some of the following task:
 
 ```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+
+npx hardhat run scripts/deploy.js --network rinkeby
+
 ```
